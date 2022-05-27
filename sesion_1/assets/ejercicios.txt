@@ -4,9 +4,10 @@ porcentaje de alumnos  de cada una de las carreras.
 
 
 
-2. Diseñe un programa que lea la cantidad de estudiantes de la carrera de 
-ingeniería de sistemas, diseño gráfico y médicina, para así poder sacar el 
-porcentaje de alumnos  de cada una de las carreras: 
+2. Un importante empresario desea realizar una gran donacion a una
+universidad de la ciudad con el fin de financiarle el estudio a varios 
+jóvenes. Hay 4 facultades y la donación será dividida de la siguiente 
+forma:
 
 •	Telecomunicaciones: 20% de sistemas
 •	Sistemas: 15 % Administración.
