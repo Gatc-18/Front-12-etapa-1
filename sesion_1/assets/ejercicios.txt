@@ -15,15 +15,7 @@ forma:
 •	Contabilidad: lo que resta de la donación.
 
 
-
-3. Un alumno desea saber cual será su calificación final en la materia 
-de algoritmos y estructura de datos. Dicha calificación se compone  de los 
-siguientes porcentajes: 55% del promedio de sus tres practicas calificadas. 
-30% de la calificación del examen final y 15% de la calificación de un
-proyecto final.
-
-
-4. En un hospital existen tres áreas: Ginecología, Pediatría, Traumatología. 
+3. En un hospital existen tres áreas: Ginecología, Pediatría, Traumatología. 
 El presupuesto anual del hospital se reparte de la siguiente forma:
 
 •	Ginecología 40%
@@ -33,6 +25,8 @@ El presupuesto anual del hospital se reparte de la siguiente forma:
 Obtener la cantidad de dinero que recibirá cada área, para cualquier monto presupuestal.  
 
 
-5.Programa que pida el precio de un artículo y calcule su valor
+4.Programa que pida el precio de un artículo y calcule su valor
 aplicándole un 19% de IVA.
+
+
 
