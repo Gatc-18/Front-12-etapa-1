@@ -1,0 +1,366 @@
+{
+   "paletas": [
+        {
+            "id":1,
+            "name":"LimonBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/d6CLyMB/9-2.png",
+            "flavor": "Limón",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":2,
+            "name":"ChicleBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/ypMrWS3/8-2.png",
+            "flavor": "Chicle",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":3,
+            "name":"MandaBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/SQ5X5Q7/7-2.png",
+            "flavor": "Mandarina",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":4,
+            "name":"SkyBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/QXSMkGs/6-2.png",
+            "flavor": "Algodón de azúcar",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":5,
+            "name":"freBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/7bx9HDp/1-2.png",
+            "flavor": "Fresa",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":6,
+            "name":"CoBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/80YZXtW/5-2.png",
+            "flavor": "Gseosa Quatro",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":7,
+            "name":"ManBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/0hkR7Qp/10-2.png",
+            "flavor": "Mango biche",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":8,
+            "name":"RosBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/6W23SYX/3-2.png",
+            "flavor": "Rosas silvestres",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":9,
+            "name":"blueBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/CVGXchd/2-2.png",
+            "flavor": "Agua de mar azucarada",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":10,
+            "name":"YellowBoom",
+            "price": 1500,
+            "image":"https://i.ibb.co/JxqJLqr/4-2.png",
+            "flavor": "Flor de margarita",
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de agua de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "agua"
+        },
+        {
+            "id":11,
+            "name":"SandiaManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/hFKCp2x/Sandia.png",
+            "flavor": "Sandía",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":12,
+            "name":"MangoManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/QKs50Ch/Mango.png",
+            "flavor": "Mango",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":13,
+            "name":"UvaManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/YTSBpcK/uva.png",
+            "flavor": "Uva",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":14,
+            "name":"LimaManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/RDwg644/Limon.png",
+            "flavor": "Lima",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":15,
+            "name":"PiñaManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/x2QP2yX/Pi-a.png",
+            "flavor": "Piña",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":16,
+            "name":"FresaManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/4YtQRWW/Fresa.png",
+            "flavor": "Fresa",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":17,
+            "name":"ArandanoManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/X7tH6S1/Arandanos.png",
+            "flavor": "Arandanos",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":18,
+            "name":"ParchiManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/34ZTDdc/Parchita.png",
+            "flavor": "Parchita",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":19,
+            "name":"KiwiManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/r2Y5wyj/Kiwi.png",
+            "flavor": "Kiwi",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":20,
+            "name":"DuraznoManía",
+            "price": 5000,
+            "image":"https://i.ibb.co/ZTptJ8z/Durazno.png",
+            "flavor": "Durazno",
+            "description": "Esta gran paleta, galardonada como una de las mejores paletas de frutas de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "fruta"
+        },
+        {
+            "id":21,
+            "name":"PopsyXtreme",
+            "price": 3500,
+            "image":"https://i.ibb.co/tm38GFT/Pospy-xtreme.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":22,
+            "name":"PopsyRed",
+            "price": 3500,
+            "image":"https://i.ibb.co/GpfsyZB/Pospy-red.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":23,
+            "name":"PopsyPurple",
+            "price": 3500,
+            "image":"https://i.ibb.co/C2xTmCP/Pospy-purple.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":24,
+            "name":"PopsyPink",
+            "price": 3500,
+            "image":"https://i.ibb.co/5vjFwZ2/Pospy-pink.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":25,
+            "name":"PopsyOrange",
+            "price": 3500,
+            "image":"https://i.ibb.co/C6DDRNW/Pospy-orange.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":26,
+            "name":"PopsyMilk",
+            "price": 3500,
+            "image":"https://i.ibb.co/bFCM1zd/Pospy-milk.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":27,
+            "name":"PopsyEmotion",
+            "price": 3500,
+            "image":"https://i.ibb.co/LzLcBh8/Pospy-emotion.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":28,
+            "name":"PopsyChips",
+            "price": 3500,
+            "image":"https://i.ibb.co/nmLptdp/Pospy-chips.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":29,
+            "name":"Popsy",
+            "price": 3500,
+            "image":"https://i.ibb.co/0hQLvtH/Pospy.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":30,
+            "name":"PopsyBrown",
+            "price": 3500,
+            "image":"https://i.ibb.co/FxctM2F/Pospy-brown.png",
+            "flavor": null,
+            "description": "Esta gran paleta, que pertenece a la gama de paletas principales de nuestra tienda, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia de la mano de un momento único y especial.",
+            "categorie": "popsy"
+        },
+        {
+            "id":31,
+            "name":"RedMilk",
+            "price": 4000,
+            "image":"https://i.ibb.co/whdPBnK/RedMilk.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":32,
+            "name":"CocoMilk",
+            "price": 4000,
+            "image":"https://i.ibb.co/SP1jtFk/cocoMilk.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":33,
+            "name":"PurpleMilk",
+            "price": 4000,
+            "image":"https://i.ibb.co/CWX1q0k/Purple-Milk.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":34,
+            "name":"CookieMilk",
+            "price": 4000,
+            "image":"https://i.ibb.co/x5Kghkq/Coco.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":35,
+            "name":"Fusion-X",
+            "price": 4000,
+            "image":"https://i.ibb.co/WFGXZrR/Fusion-X.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":36,
+            "name":"Chocolate",
+            "price": 4000,
+            "image":"https://i.ibb.co/zxwDQN1/Chocolate.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":37,
+            "name":"Fusion-M",
+            "price": 4000,
+            "image":"https://i.ibb.co/C1cz6hY/Fusion-M.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":38,
+            "name":"BatiMilk",
+            "price": 4000,
+            "image":"https://i.ibb.co/gb8bGgC/Batibati.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":39,
+            "name":"SundaeMilk",
+            "price": 4000,
+            "image":"https://i.ibb.co/85c9X3W/Fresita.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        },
+        {
+            "id":40,
+            "name":"Napolitana",
+            "price": 4000,
+            "image":"https://i.ibb.co/TYHjrHx/Napolitana.png",
+            "flavor": null,
+            "description": "Esta gran paleta, considerada por muchos como una de las mejores paletas de leche de la ciudad, con su gran sabor y textura, deleitará tu paladar hasta saciarte a ti y toda tu familia.",
+            "categorie": "leche"
+        }
+    ],
+    "Usuarios": [],
+    "Favoritos":[]
+}

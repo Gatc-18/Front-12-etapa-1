@@ -1,0 +1,37 @@
+1. Diseñe un programa que lea la cantidad de estudiantes de la carrera de 
+ingeniería de sistemas, diseño gráfico y médicina, para así poder sacar el 
+porcentaje de alumnos  de cada una de las carreras.
+
+
+
+2. Diseñe un programa que lea la cantidad de estudiantes de la carrera de 
+ingeniería de sistemas, diseño gráfico y médicina, para así poder sacar el 
+porcentaje de alumnos  de cada una de las carreras: 
+
+•	Telecomunicaciones: 20% de sistemas
+•	Sistemas: 15 % Administración.
+•	Administración: 30% de la donación.
+•	Contabilidad: lo que resta de la donación.
+
+
+
+3. Un alumno desea saber cual será su calificación final en la materia 
+de algoritmos y estructura de datos. Dicha calificación se compone  de los 
+siguientes porcentajes: 55% del promedio de sus tres practicas calificadas. 
+30% de la calificación del examen final y 15% de la calificación de un
+proyecto final.
+
+
+4. En un hospital existen tres áreas: Ginecología, Pediatría, Traumatología. 
+El presupuesto anual del hospital se reparte de la siguiente forma:
+
+•	Ginecología 40%
+•	Traumatología 30%
+•	Pediatría 30%
+
+Obtener la cantidad de dinero que recibirá cada área, para cualquier monto presupuestal.  
+
+
+5.Programa que pida el precio de un artículo y calcule su valor
+aplicándole un 19% de IVA.
+
