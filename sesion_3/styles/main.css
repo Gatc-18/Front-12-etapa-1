@@ -5,3 +5,15 @@
 .titulo {
     background-color: green;
 }
+body{
+   text-align: center;
+}
+
+
+.table{
+    background-color: salmon;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 30px;
+
+}
