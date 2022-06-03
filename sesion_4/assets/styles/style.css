@@ -1,0 +1,11 @@
+.clase1{
+    background-color: aqua;
+    padding: 20px;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.clase2{
+    display: none; 
+}
