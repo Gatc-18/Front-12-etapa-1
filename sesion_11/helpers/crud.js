@@ -24,12 +24,22 @@ export const postU = async u => {
 };
 
 
-export const deleteU = async url => {
-    try {
-        await fetch( url, { method: "DELETE" } );
-    } catch ( err ) {
-       console.log( err );
-    };
+export const deleteU = url => {
+
+        Swal.fire({
+            title: "Seguro deseas eliminar este usuario",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: 'Sí eliminar'
+        }).then( async (result) => {
+            if (result.isConfirmed) {
+                try {
+                    await fetch( url, { method: "DELETE" } );
+                } catch ( err ) {
+                    console.log( err );
+                };
+            }
+        })
 };
 
 

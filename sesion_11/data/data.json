@@ -159,12 +159,6 @@
       "apellido": "Lore",
       "correo": "lore@gmail.com",
       "id": 4
-    },
-    {
-      "nombre": "Jose",
-      "apellido": "Garcia",
-      "correo": "jose@gmail.com",
-      "id": 5
     }
   ]
 }
