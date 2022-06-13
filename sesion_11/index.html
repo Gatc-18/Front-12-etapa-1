@@ -27,7 +27,7 @@
                 </div>
                 <div class="row">
                     <div class="col-6 mx-1">
-                        <button id="btnperro" class="btn-perro btn btn-secondary">
+                        <button id="btnP" class="btn-perro btn btn-secondary">
                             <div class="row">
                                 <div class="col-4 icono-perro">
                                     <img id="imagen-perro" src="https://i.ibb.co/mC74qWB/Categor-a-Perros.png">
@@ -39,7 +39,7 @@
                         </button>
                     </div>
                     <div class="col-5 mx-1">
-                        <button id="btnGato" class="btn-gato btn btn-secondary">
+                        <button id="btnG" class="btn-gato btn btn-secondary">
                             <div class="row">
                                 <div class="col-4 icono-gato">
                                     <img id="imagen-gato" src="https://i.ibb.co/mTyRchQ/Categor-a-Gatos.png">
@@ -50,15 +50,29 @@
                             </div>
                         </button>
                     </div>
+                    <!-- <button id="lmp">Limpiar</button> -->
                 </div>
             </div>
     </header>
     <main>
         <div class="container-fluid mt-4 mb-3">
-            <div class="row row-cols-2 row-cols-md-2 g-4 grid-mascotas">
-
+            <div id="container" class="row row-cols-2 row-cols-md-2 g-4 grid-mascotas">
             </div>
         </div>
+
+        <template id="petsCard">
+            <div class="col mascotas">
+                <a href="#" class="enlace-detalle-mascota">
+                    <div class="card bg-dark text-white gradiente">
+                        <img src="${imagen}" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title body2Bold">${nombre}</h5>
+                            <p class="card-text body2Regular">${raza}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </template>
 
 
     </main>
@@ -73,8 +87,10 @@
             </div>
         </nav>
     </footer>
-</body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-    crossorigin="anonymous"></script>
+
+        <script src="./scripts/main.js" type="module"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    </body>
 </html>

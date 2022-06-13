@@ -35,7 +35,7 @@
             <form id="formulario">
                 <div class="campo">
                     <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="" >
                 </div>
                 <div class="campo">
                     <label for="lastName" class="form-label body1Regular label-edit">Apellido</label>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="campo">
                     <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
-                    <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
+                    <input  id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
                     readonly>
                 </div>
                 <div class="">
@@ -60,7 +60,7 @@
                     <button id="btnEditar" type="button" class="btn btn-secondary buttom guardar-cambios">Editar</button>
                 </div>
                 <div class="">
-                    <button id="btnEliminar" type="button" class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
+                    <button disabled id="btnEliminar" type="button" class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
                 </div>
             </form>
         </div>
@@ -76,6 +76,8 @@
             </div>
         </nav>
     </footer>
+    <!-- Script -->
+    <script src="./scripts/usuarios.js" type="module"></script>
     <!-- CDN  SWEETTALERT 2 -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- CDN BOOTSTRAP -->
