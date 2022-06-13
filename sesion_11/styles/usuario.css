@@ -1,0 +1,91 @@
+.guardar-cambios, .btn-iniciarSesion, .btn-registrarse {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+    margin-top: 24px;
+}
+
+.campo {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.edit {
+    width: 327px;
+    height: 48px;
+    left: 0px;
+    border: 1px solid #535353;
+    margin: 4px 0px;
+    margin-bottom: 16px;
+}
+
+.label-edit {
+    margin: 0px 10px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 94px;
+    margin-left: 140px;
+}
+
+.nombre{
+    color: #0E172C;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.btn-editar{
+    color: #0E172C;
+    margin-bottom: 24px;
+}
+.datos{
+    padding: 0;
+}
+
+.tituloPerfil{
+    margin: 48px 24px 32px 24px;
+}
+.o{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 540px){
+    .tituloPerfil {
+        text-align: center;
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+    }
+    .usuario{
+        width: 20%;
+        margin-left: 40%;
+    }
+    .formUsuario{
+        text-align: -webkit-center;
+    }
+    .div-usuario {
+        width: 80%;
+        background: #c3f0f4;
+        margin-left: 10%;
+        border-radius: 25px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .campo {
+        margin-left: 18%;
+    }
+    .edit {
+        width: 80%;
+    }
+    .guardar-cambios{
+        margin-left: 25%;
+        width: 50%;
+    
+    }
+}

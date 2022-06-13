@@ -1,0 +1,170 @@
+#home {
+    background: var(--color-primary);
+    font-family: Nunito;
+    font-style: normal;
+}
+
+.btn-perro, .btn-gato {
+    border-radius: 8px;
+    padding: 8px;
+    background: var(--color-black);
+    width: 155px;
+    height: 80px;
+    left: 172px;
+    top: 0px;
+}
+
+.icono-gato, .icono-perro {
+    border-radius: 100%;
+    background: var(--color-green);
+    margin-left: 15px;
+}
+
+#imagen-perro, #imagen-gato {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: -5px;
+}
+
+.categoria-gato, .categoria-perro {
+    padding-top: 8%;
+}
+
+.card-img {
+    height: 250px;
+    width: 156px;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.card {
+    border: none;
+}
+
+.bg-dark {
+    background-color: rgba(33, 37, 41, 0)!important;
+}
+
+.card-title {
+    margin-top: 135%;
+    color: white;
+}
+
+.card-text {
+    color: #CDCDCD;
+}
+
+.titulo {
+    padding-right: 40px;
+}
+
+.mascotas {
+    width: 50%;
+}
+
+@media (min-width: 540px) {
+    .titulo {
+        text-align: center;
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+    }
+    .btn-categorias {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .icono-gato, .icono-perro {
+        margin-left: 30px;
+        margin-right: 14px;
+        width: 65px;
+    }
+    #imagen-perro, #imagen-gato {
+        padding-top: 14px;
+        margin-left: 0px;
+    }
+    .btn-perro, .btn-gato {
+        width: 300px;
+        height: 105px;
+    }
+    .div-categorias {
+        margin-bottom: 55px;
+    }
+    /**/
+    .card-img {
+        width: 200px;
+        height: 300px;
+    }
+    .columna1, .columna2 {
+        margin-left: 165px;
+        margin-right: 135px;
+        width: 324px !important;
+    }
+    .card-img-overlay {
+        width: 200px !important;
+        ;
+        height: 300px!important;
+        ;
+    }
+    .card-title {
+        margin-top: 115%;
+    }
+    .grid-mascotas {
+        justify-content: center;
+    }
+    .btn-modal {
+        width: 345px !important;
+        padding: 26px !important;
+    }
+    .div-btn-modal {
+        text-align: center;
+    }
+    .mascotas {
+        width: 20%;
+    }
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+    opacity: 50%;
+}
+
+.modal-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 327px;
+}
+
+.modal-texto {
+    text-align: center;
+}
+
+.btn-modal {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+}
+
+.modal {
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 70px;
+}
+
+.card-img-overlay {
+    box-shadow: inset 0px -51px 40px -15px #000000;
+    height: 250px;
+    width: 156px;
+    border-radius: 16px;
+}
+
+.modal-footer{
+    justify-content: center;
+}

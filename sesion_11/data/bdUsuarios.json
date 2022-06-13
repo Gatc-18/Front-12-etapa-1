@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Jose Daniel",
+      "apellido": "Garcia Jaime",
+      "correo": "jose@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "Daniel",
+      "apellido": "Garcia",
+      "correo": "daniel@gmail.com",
+      "id": 2
+    },
+    {
+      "nombre": "Maria",
+      "apellido": "Mendoza",
+      "correo": "maria@gmail.com",
+      "id": 3
+    },
+    {
+      "nombre": "Aidalis",
+      "apellido": "Flores",
+      "correo": "aidalis@gmail.com",
+      "id": 4
+    }
+  ]
+}
