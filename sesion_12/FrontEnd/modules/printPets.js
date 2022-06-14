@@ -7,6 +7,7 @@ export const printPets = ( data, template, container ) => {
     const fragment = document.createDocumentFragment();
 
     data.forEach( pet => {
+        // Desestructuración
         const { imagen, nombre, raza } = pet;
         
         template.querySelector( "img" ).setAttribute( "src", imagen );

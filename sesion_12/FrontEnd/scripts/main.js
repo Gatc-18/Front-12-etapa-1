@@ -6,7 +6,7 @@ const btnG = document.querySelector("#btnG");
 const tPets = document.getElementById('petsCard').content;
 const container = document.querySelector('#container');
 // const lmp = document.getElementById('lmp');
-const url = "http://localhost:4005/";
+const url = "http://localhost:4000/";
 
 
 // Limpiar DOM

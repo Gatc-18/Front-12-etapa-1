@@ -1,10 +1,11 @@
-import { deleteU, postU } from "../helpers/crud.js";
+import { deleteU, postU, putU } from "../helpers/crud.js";
 import { getData } from "../helpers/getData.js";
 
 
 const form = document.getElementById('formulario');
 const btnCorreo = document.getElementById("btnCorreo");
 const btnEliminar = document.getElementById("btnEliminar");
+const btnEditar = document.getElementById("btnEditar");
 const nombre = document.getElementById('name');
 const apellido = document.getElementById("lastName");
 const correo = document.getElementById("email");
@@ -27,7 +28,7 @@ form.addEventListener( "submit", e => {
 
 btnCorreo.addEventListener( "click", async()=> {
     const input = document.getElementById( "email" ).value;
-    const data = await getData("http://localhost:4005/usuarios");
+    const data = await getData("http://localhost:4000/usuarios");
     const u = data.find( usr=> usr.correo.toLowerCase() === input.toLowerCase() );
 
     if ( u ) {
@@ -40,6 +41,7 @@ btnCorreo.addEventListener( "click", async()=> {
 
         // btnEliminar.removeAttribute("disabled");
         btnEliminar.disabled = false;
+        btnEditar.disabled = false;
         
     }else {
         Swal.fire({
@@ -53,6 +55,17 @@ btnCorreo.addEventListener( "click", async()=> {
 
 
 btnEliminar.addEventListener( "click", ()=>{
-    deleteU( `http://localhost:4005/usuarios/${id.value}` )
+    deleteU( `http://localhost:4000/usuarios/${id.value}` )
 } );
 
+
+btnEditar.addEventListener( "click", ()=> {
+    const uM = {
+        nombre: nombre.value,
+        apellido: apellido.value,
+        correo: correo.value
+    };
+
+    putU( `http://localhost:4000/usuarios/${id.value}`, uM )
+
+})

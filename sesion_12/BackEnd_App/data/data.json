@@ -155,10 +155,16 @@
       "id": 3
     },
     {
-      "nombre": "Lore",
+      "nombre": "Lorena Dayana",
       "apellido": "Lore",
       "correo": "lore@gmail.com",
       "id": 4
+    },
+    {
+      "nombre": "Lore333",
+      "apellido": "Torres",
+      "correo": "lore333@gmail.com",
+      "id": 5
     }
   ]
 }
